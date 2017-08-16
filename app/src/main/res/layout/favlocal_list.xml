@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rlFriendList"
+    android:layout_centerInParent="true"
+    android:background="@null">
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/flFavLocalList">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/txtFavLocalID"
+            android:visibility="invisible"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/txtFavLocalLat"
+            android:visibility="invisible"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/txtFavLocalLng"
+            android:visibility="invisible"/>
+        <TextView
+        android:id="@+id/txtFavNomeList"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:shadowColor="#fff"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:background="@null"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"/>
+
+    </FrameLayout>
+</RelativeLayout>

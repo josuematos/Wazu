@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wazu</string>
+    <string name="title_activity_maps">Wazu</string>
+    <string name="str_btn_draw">Draw Route</string>
+    <string name="facebook_app_id">1136431569710756</string>
+    <string name="error_permission_map">Por favor ceda as permissões ao aplicativo.</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8383352293187273/2580082347</string>
+    <string name="action_settings">Settings</string>
+    <string name="local_service_started">"Serviço Wazu"</string>
+    <string name="games_app_id">858442205496</string>
+    <string name="signin_failure">"Erro ao Conectar ao Google Games"</string>
+    <string name="signin_other_error">Erro ao Conectar ao Google Games. Tente Novamente Mais Tarde.</string>
+</resources>

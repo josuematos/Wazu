@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.editorapendragon.wazu.MapsActivity"
+    tools:showIn="@layout/activity_maps"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo_face"
+        android:id="@+id/rlTermos"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Termos e Condições de Uso\n\n\nIntrodução\n\nBem-vindo ao mundo Wazu! O aplicativo mais simples e eficiente para planejamento de viagens com o transporte público, especial e privado, que é baseado em informações obtidas de várias origens, incluindo terceiros, foi gerado com a contribuição e participação da comunidade de usuários do aplicativo.\n\nPor favor, certifique-se de ter lido e entendido os “Termos de Uso” e “Política de Privacidade”, doravante denominados “Termos”, que consistem em “Contrato” firmado entre o “Wazu” – representado pela Editora PenDragon CPNJ: 23.261.971/0001-90 e o “Usuário” após a manifestação do “Aceite”. O Aceite dos Termos é indispensável para qualquer forma de utilização do “Website” www.wazu.com.br e do “Aplicativo” Wazu disponível no Google Play, em conjunto denominados “Aplicativos”. O cadastro como Usuário e/ou utilização do Website é proibido para qualquer pessoa juridicamente incapaz ou que não acorde plenamente com todos os Termos.\n\nOs Termos vinculam legalmente o Usuário com relação aos atuais ou novos serviços oferecidos pelo aplicativo Wazu.\n\nPelo cadastramento como Usuário e/ou utilização dos Aplicativos ou Serviços de qualquer maneira, o Usuário, independente de utilizar ou não o serviço, concorda em se vincular e cumprir os Termos.\n\nO Wazu se resguarda no direito de realizar alterações/atualizações nos Termos, a qualquer momento, sem aviso prévio e a simples utilização dos Aplicativos após alteração/atualização dos Termos importa em concordância com os mesmos. Caso o Usuário não concorde com as alterações, deverá cancelar sua conta, e cessar toda e qualquer utilização dos Aplicativos. Na ausência de manifestação entender-se-á que o Usuário aceitou tacitamente os Termos e o Contrato continuará vinculando as partes. Recomendamos que o Usuário reveja os Termos com frequência para estar a par de quaisquer atualizações.\n\nAo instalar e executar o aplicativo, você confirma que leu os temos de uso e política de privacidade na íntegra, como aparecem em nosso website http://wazu.com.br/, compreendeu e concordou com o seu conteúdo.\n\nObjeto\n\nUma rede colaborativa de informações sobre transporte de passageiros utilizando os meios públicos, especiais e privados. Com ele você poderá realizar uma série de atividades  para melhorar o seu uso destes meios de transporte, como saber a localização de uma linha, calcular o trajeto até seu destino e programar alarmes de chegada ao destino e baldeações. No wazu cada usuário pode informar o posicionamento de uma linha com um simples toque na tela. Além disso, também é possível alertar os usuários sobre o tráfego, acidentes, assaltos, obras, dentre outros. Essas informações são compartilhadas para todos os membros da comunidade fazendo com que a rede de ajuda chegue até os lugares mais distantes e que não possuem sistema de informações de trânsito eficiente. Quanto mais usuários, mais informações. Com mais informações, mais ajuda e colaboração.\n\nO aplicativo e plataforma são uma versão teste (Beta) em constante desenvolvimento, dessa forma, pode haver falhas, erros e interrupções de todos os tipos. O uso do aplicativo e plataforma é de sua inteira responsabilidade.\n\nPropriedade Intelectual\n\nAs marcas, nomes, logotipos, nomes de domínio e demais sinais distintivos, bem como todo e qualquer conteúdo, desenho, arte ou layout publicado nos Aplicativos, são de propriedade exclusiva do Wazu e seus representantes.\n\nSão vedados quaisquer atos ou contribuições tendentes à descompilação, engenharia reversa, modificação das características, ampliação, alteração, mesclagem ou incorporação em quaisquer outros programas ou sistemas. Enfim, toda e qualquer forma de reprodução, total ou parcial, permanente, temporária ou provisória, de forma gratuita ou onerosa, sob quaisquer modalidades, formas ou títulos dos Aplicativos é expressamente vedada.\n\nPolítica de Privacidade\n\nO Wazu não recolhe, grava ou utiliza em conexão com outros sites e parceiros as informações pessoais do Usuário, incluindo, mas não se limitando a, nome, foto, endereço, número de telefone, interesses, atividades, sexo e idade.\n\nNós utilizamos as informações coletadas em associação ao resultado do uso que você fará do aplicativo e plataforma, incluindo informações relacionadas a sua localização e preferências de transporte público. Faremos uso estatístico, anônimo, destas informações, para que possamos estimar os horários de chegada de diversas linhas de ônibus, para analisar sua frequência e transmitir as informações a terceiros para quem essas informações poderão ser pertinentes.\n\nO Wazu não divulga publicamente nem a terceiros suas informações de modo que possam identificá-lo, mas pode fazê-lo de forma agregada no intuito de realizar análises, estudos, melhoria do sistema e por força de ordem judicial.\n\nO Wazu está fortemente comprometido em manter a sua privacidade quando estiver visitando o nosso site. Algumas das informações mantidas no nosso servidor são informações que o Usuário se prontifica a fornecer através de formulários, enquanto que algumas são obtidas automaticamente. A menos que o próprio Usuário se prontifique a apresentar dados pessoais, o Wazu nunca coletará informações com base nas quais Usuários individuais possam ser identificados.\n\nInformações Automaticamente Coletadas e Armazenadas\n\nO “Servidor” do Wazu coleta automaticamente informações não pessoais. As informações normalmente coletadas incluem o nome de domínio de seu provedor de acesso à internet, o endereço do protocolo de internet (IP) utilizado para conectar o computador do Usuário à internet, o tipo e versão do browser do Usuário, o sistema operacional e plataforma, o tempo médio gasto nos Aplicativos, as páginas visitadas, as informações procuradas, os horários de acesso e outras estatísticas relevantes. O Wazu emprega todas essas informações para mensurar o uso de seus sites, bem como para administrá-los e aperfeiçoá-los.\n\nAlgumas das páginas também podem depositar certas parcelas de informações, chamadas “cookies” (biscoitos), no computador do Usuário. De modo geral, um “cookie” cede um número único ao Usuário, número este que não tem nenhum significado fora do site cedente. Essa tecnologia não coleta informações identificadoras de um Usuário individual, apresentando tais informações apenas de forma global. Essa tecnologia e as informações oferecidas através dela têm por objetivo aperfeiçoar a navegação no Wazu. A maioria dos web browsers permite ao Usuário rejeitar ou aceitar a característica “cookie”. Entretanto, é importante notar que os cookies são necessários para lhe oferecer certas características (por exemplo, entrega customizada de informações) disponíveis no Website do Wazu. Para mais informações sobre os cookies, acessar http://www.microsoft.com/info/cookies.htm.\n\nLimite de Responsabilidade\n\nComo parte das informações é obtida de terceiros, não podemos garantir a sua confiabilidade. Da mesma forma, não podemos nos comprometer com a confiabilidade ou precisão das informações e pode haver erros, falhas ou imprecisões.\n\nNão cabe a nós a responsabilidade por nenhum dano, inconveniente, perda ou agravamento que você pode sofrer direta ou indiretamente como um resultado do uso do aplicativo e plataforma, incluindo aqueles causados como resultado no fato de você ter confiado nas informações prestadas.\n\nAo usar o aplicativo, você concorda antecipadamente a não proceder com nenhuma reclamação, ação judicial ou exigência relacionados ao uso do aplicativo, da plataforma e dos serviços prestados ou às limitações associadas ao seu uso.\n\nO Wazu reserva-se o direito de alterar a presente política a qualquer tempo. A política de privacidade não cria nenhum direito contratual ou outro direito legal com relação a qualquer parte ou em nome da mesma.\n\nEste Website pode conter links a outros web sites. A presente declaração de privacidade não abrange os referidos sites, não podendo o Wazu ser responsabilizado pelas práticas de privacidade ou pelo conteúdo desses outros sites.\n\nCréditos de Terceiros\n\nO Wazu utiliza ícones gratuitos extraídos do site FlatIcon by FreePik (http://www.flaticon.com/authors/freepik). As músicas utilizadas no vídeo foram extraídas do YouTube. A música 'I Like Peanuts' de Audionautix está licenciada sob uma licença Creative Commons Attribution (https://creativecommons.org/licenses/by/4.0/)
+Artista: http://audionautix.com/.\n\n\nEsperamos que aproveite o serviço e lhe desejamos uma experiência prazerosa e eficiente com o transporte público, especial e privado."
+                android:id="@+id/textTermos"
+                android:textColor="#000"
+                android:shadowColor="#fff"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="6"
+                android:layout_gravity="top"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:padding="15dp"
+                android:textAlignment="textStart"
+                android:clickable="true"
+                android:inputType="textMultiLine" />
+    </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

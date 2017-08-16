@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:visibility="invisible"
+    tools:context="br.com.editorapendragon.wazu.MapsActivity"
+    android:id="@+id/rlVideoTour">
+         <VideoView
+          android:layout_width="fill_parent"
+          android:visibility="visible"
+          android:clickable="true"
+          android:layout_height="fill_parent"
+          android:layout_gravity="center"
+          android:id="@+id/vwVideoTour"
+          android:orientation="horizontal" />
+</RelativeLayout>

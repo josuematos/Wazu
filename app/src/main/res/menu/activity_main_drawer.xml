@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_limpar"
+            android:icon="@drawable/ic_menu_limpar"
+            android:title="Limpar Mapa" />
+        <item
+            android:id="@+id/menu_meusalertas"
+            android:icon="@drawable/ic_meus_alertas"
+            android:title="Ver Meus Alertas" />
+        <item
+            android:id="@+id/menu_favoritos"
+            android:icon="@drawable/ic_menu_favoritos"
+            android:title="Locais Favoritos" />
+        <item
+            android:id="@+id/menu_onibus"
+            android:icon="@drawable/ic_menu_trafego"
+            android:title="Linhas Favoritas" />
+        <item
+            android:id="@+id/menu_prefs"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Preferências" />
+        <item
+            android:id="@+id/menu_conta"
+            android:icon="@drawable/ic_menu_conta"
+            android:title="Registro de Conta" />
+        <item
+            android:id="@+id/menu_conquistas"
+            android:icon="@drawable/ic_ninja"
+            android:title="Minhas Conquistas" />
+        <item
+            android:id="@+id/menu_divulgue"
+            android:icon="@drawable/ic_menu_divulgue"
+            android:title="Divulgue" />
+        <item
+            android:id="@+id/menu_termos"
+            android:icon="@drawable/ic_menu_sobre"
+            android:title="Termos de Uso" />
+        <item
+            android:id="@+id/menu_retire"
+            android:icon="@drawable/ic_menu_retire"
+            android:title="Retire os Anúncios" />
+    </group>
+
+    <item android:title="Ajuda">
+        <menu>
+            <item
+                android:id="@+id/menu_video_guiado"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Tour em vídeo" />
+            <item
+                android:id="@+id/menu_logs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Vídeo de Ajuda" />
+        </menu>
+    </item>
+
+</menu>

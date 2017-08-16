@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.editorapendragon.wazu.MapsActivity"
+    tools:showIn="@layout/activity_maps">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_alerta"
+        android:id="@+id/rlFavOnibus"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="5dp">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flFav1"
+            style="@android:style/Widget.SeekBar"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Incluir como Favorito \n"
+                android:id="@+id/txtTitFavOnibus"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:textStyle="normal"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:visibility="invisible"
+                android:id="@+id/txtFavTipoLinha"
+                android:textColor="#fff"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="3dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/txtFavOLinha"
+                android:singleLine="false"
+                android:textColor="#000"
+                android:gravity="left"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="normal"
+                android:textSize="14dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:layout_gravity="left|center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFavONomeLinha"
+        android:visibility="invisible"
+        android:singleLine="false"
+        android:textColor="#000"
+        android:gravity="left"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:lines="4"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="5dp"
+        android:layout_gravity="left|center_horizontal"
+        android:inputType="textMultiLine" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnSalvarInfoMarcadorOnibus"
+        android:onClick="funcSalvarInfoMarcadorOnibus"
+        android:src="@drawable/addfavorito"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="right|center_vertical"
+        android:padding="0dp"
+        android:layout_marginRight="5dp"
+        android:background="@null" />
+        </FrameLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

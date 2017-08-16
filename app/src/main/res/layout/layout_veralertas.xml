@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.editorapendragon.wazu.MapsActivity"
+    tools:showIn="@layout/activity_maps">
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_alerta"
+        android:id="@+id/rlVerAlertas"
+        android:visibility="invisible"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flAtitutlo"
+            style="@android:style/Widget.SeekBar"
+              >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center_horizontal"
+                android:padding="10dp"
+                android:text="Visualizar Alertas"
+                android:textColor="#fff"
+                android:textStyle="normal"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"/>
+            </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flA0"
+            style="@android:style/Widget.SeekBar"
+            android:layout_below="@+id/flAtitutlo" >
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btAcidente"
+                android:onClick="funcVerAlertaAcidente"
+                android:src="@drawable/acidente"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                android:background="@null" />
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btAssalto"
+                android:onClick="funcVerAlertaAssalto"
+                android:src="@drawable/assalto"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@null" />
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btnCongestionamento"
+                android:layout_gravity="right"
+                android:onClick="funcVerAlertaCongestionamento"
+                android:src="@drawable/engarrafamento"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:background="@null" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/flA1"
+            style="@android:style/Widget.SeekBar"
+            android:layout_below="@+id/flA0">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btPolicia"
+                android:onClick="funcVerAlertaPolicia"
+                android:src="@drawable/policia"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                android:background="@null" />
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btnPontoOnibus"
+                android:onClick="funcVerAlertaPonto"
+                android:src="@drawable/pontoonibus"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@null" />
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btnObras"
+                android:layout_gravity="right"
+                android:onClick="funcVerAlertaObras"
+                android:src="@drawable/obras"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:background="@null" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

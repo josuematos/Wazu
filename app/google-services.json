@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "184612247533",
+    "firebase_url": "https://fair-geography-129414.firebaseio.com",
+    "project_id": "fair-geography-129414",
+    "storage_bucket": "fair-geography-129414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184612247533:android:5e9e1e57e17b8415",
+        "android_client_info": {
+          "package_name": "br.com.editorapendragon.wazu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184612247533-bsgcv36n0k3tieoicdchrk0pflk5o4pl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "184612247533-gfm8tvdluqc4mjqjauf2goumtm2mo83j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnxFURfsNcpeKsSSLjuqZ581H3NOlwRvw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
